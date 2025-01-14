@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin: 0px 160px;
+}
+body {
+  background: #f5f5f5;
+}
+
+.primary-btn {
+  color: #006a50;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 1px solid #006a50;
+  background: #f5f5f5;
+}
+/* banner-section */
+
+.banner-section {
+  display: flex;
+  border-radius: 24px;
+  background: #c6e4d6;
+  padding: 80px 100px;
+  gap: 64px;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.banner-container p {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: "Fira Sans";
+  font-size: 24px;
+
+  font-weight: 500;
+  margin-top: 24px;
+}
+.banner-container h3 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.banner-container .btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+  border-radius: 8px;
+  background: #006a50;
+  border: none;
+}
+/* main */
+main {
+  margin: 0px 160px;
+}
+
+/* vission section */
+.vission-container {
+  margin-bottom: 32px;
+}
+.vission-container h3 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.vission-container p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+
+  flex-direction: row;
+}
+.card-container1 {
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
+  padding: 32px;
+}
+.card-container2 {
+  border-radius: 16px;
+  border: 0px solid #09a15c;
+  background: #c6e4d6;
+  padding: 32px;
+}
+.card-container3 {
+  border-radius: 16px;
+  border: 0px solid #ffc239;
+  background: #f7ebcf;
+  padding: 32px;
+}
+.card-container h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+
+  font-weight: 700;
+  margin-top: 24px;
+}
+.card-container p {
+  margin-bottom: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+
+  font-weight: 400;
+}
+.card-btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  padding: 11px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #5490f5;
+  border:none;
+}
+.card-btn1 {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  padding: 11px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #09a15c;
+}
+/* dr-younus */
+.dr-younus {
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 30px 24px;
+  margin-bottom: 80px;
+  position: relative;
+}
+.dr-younus p {
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+  font-size: 16px;
+
+  font-weight: 400;
+}
+.special-quote {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: -1px;
+}
+.dr-younus h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+/* news */
+.news-container {
+  margin-bottom: 80px;
+}
+.news-container h3 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.news-container p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+.satelite-tittle h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 32px;
+  margin-bottom: 12px;
+
+  font-weight: 700;
+}
+.alzajira-pic {
+  width: 134px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+.satalite-img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.paragraph-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.news-btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #006a50;
+  padding: 13px 26px;
+  margin-bottom: 32px;
+  border:none;
+}
+.satalite-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+  padding: 48px;
+
+  border-radius: 24px;
+  background: #fff;
+}
+.satalite-container {
+  margin-bottom: 24px;
+}
+/* card taka */
+.container-today {
+  margin-bottom: 80px;
+}
+.container-today h3 {
+  color: #0e0e0e;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.container-today p {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.btn-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.card-btn-100 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+
+  font-weight: 700;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+}
+.card-btn-200 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #c6e4d6;
+  padding: 40px;
+}
+.card-btn-500 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 40px;
+}
+.card-btn-1000 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 40px;
+}
+.footer input {
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 10 20px;
+  margin-left: 150px;
+  margin-bottom: 80px;
+  border: none;
+}
+footer input[type="text"] {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 40px;
+}
+
+/* /* newsletter */
+.newsletter {
+    border-radius: 24px;
+background: #C6E4D6;
+padding:80px 100px;
+margin-bottom: 80px;
+}
+.newsletter h3 {
+  color: #0e0e0e;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.newsletter p {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+/* button content */
+/* .button-content{
+    display:flex;
+    margin-left:88px;
+    
+} */
+
+.newsletter-btn input[type="email"] {
+  display: flex;
+  width: 600px;
+  padding: 18px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  
+  border-radius: 8px 0px 0px 8px;
+  background: #fff;
+  border: none;
+}
+.subscriber-btn{
+    color: #FFF;
+font-family: "Fira Sans";
+font-size: 18px;
+font-weight: 600;
+display: flex;
+padding: 16px 40px;
+justify-content: center;
+align-items: center;
+gap: 48px;
+border-radius: 0px 8px 8px 0px;
+background: #006A50;
+border: none;
+margin-bottom: 24px; 
+}
+
+/* done button */
+.done-btn{
+  color: #FFF;
+font-family: "Fira Sans";
+font-size: 18px;
+font-weight: 600;
+padding: 17px 34px;
+gap: 48px;
+border-radius: 8px;
+border: 1px solid rgba(14, 14, 14, 0.10);
+background: #006A50;
+}
+.done-btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* all button hover */
+.done-btn-container .done-btn:hover{
+  background-color:rgb(118, 80, 255);
+}
+.banner-container .btn:hover{
+  background-color:rgb(32, 13, 238);
+}
+.card-btn:hover{
+  background-color: #ff39ba;
+}
+.news-btn:hover{
+  background-color: rgb(13, 130, 185);
+}
+.btn-card .card-btn1:hover{
+  background-color: rgb(5, 246, 246);
+}
+.btn-card .card-btn2:hover{
+  background-color: rgb(56, 8, 8);
+}
+.btn-card .card-btn3:hover{
+  background-color: #f86328;
+}
+.btn-card .card-btn4:hover{
+  background-color: rgb(145, 124, 7);
+}
+.subscriber-btn:hover{
+  background-color:rgb(126, 7, 65);
+}
